@@ -96,7 +96,7 @@
    margin-top: -60%;
    text-align: center;
    position: relative;
-   top: 300px;
+   top: 350px;
    height: 23px;
 }
 
@@ -297,13 +297,18 @@
 how-it-works{
 top:20px;
    position:absolute;
-   left:1000px;
-   margin-left:300px;
    font-size:50px;
-  font-weight:bold
+  font-weight:bold;
+   margin-bottom:500px;
+   margin-left:1400px;
+   white-space:nowrap;
+   bottom:600px;
+   align-self:center;
+   justify-self:center;
+   width:140px
              }
 .second-gallery{
-height:400px;
+height:700px;
 gap:30px;  
    display:flex;
    align-items:center;
@@ -313,6 +318,11 @@ gap:30px;
    width:2200px;
    top:480px;
    left:0px;
+}
+.galleros{
+   height:200px;
+   width:900px;
+   display:flex;
 }
 .step-uno{
    background-image:url('images/step-uno.png');
@@ -329,57 +339,59 @@ gap:30px;
    right:800px;
    width: 100px;
     height: 100px;
-    top: 300px;
+    top: 50px;
     left: 900px;
+   max-height:100%;
+   max-width:100%;
 }
-step-doos{
-background-image:url('images/step-dos.png');width:100px;height:100px;top:300px;left:1500px;position:absolute;bottom:124px;right:190px;border-radius: 2; gap:10px;
+.step-dos{
+background-image:url('images/step-dos.png');width:130px;height:130px;top:300px;left:1300px;position:absolute;bottom:124px;right:190px;border-radius: 2; gap:10px;
 }
-.step-tres{background-image:url('images/step-tres.png');width:100px;height:100px;top:300px;left:1500px;position:absolute;bottom:124px;right:190px;border-radius: 2; gap:10px;}
+.step-tres{background-image:url('images/step-tres.png');width:100px;height:100px;top:330px;left:1500px;position:absolute;bottom:124px;right:190px; gap:10px; border-radius:180px;box-sizing:border-box;}
 
 .uno{
-   font-size:30px;
-   position:absolute;
-   left:0px;
-   right:800px;
-   height:20px;
-   top:120px;
-   width:50px;
-   white-space:nowrap;
-   font-weight:bold;
+    position:absolute;
+   left:900px;
+   top:450px;
+   left:1120px;
 }
 .uno2{
-   top:190px;
+   top:500px;
    position:absolute;
    font-weight:lighter;
    color:#4F4F4F;
    font-size:20px;
+   right:950px;
 }
 .dos{
-   top:100px;
+   top:450px;
    position:absolute;
    white-space:nowrap;
    font-weight:bold;
+   left:1300px;
 }
 .dos2{
-   top:180px;
+   top:500px;
    position:absolute;
    font-size:20px;
+   right:700px;
 }
 .tres{
    position:absolute;
-   top:100px;
+   top:450px;
    font-weight:bold;
    white-space:nowrap;
+   right:600px;
 }
 .tres2{
    position:absolute;
-   top:180px;
+   top:500px;
    font-size:20px;
+   right:450px;
 }
 .last-gallery{
-   height: 400px;
-   width:1500px;
+   height: 200%;
+   width:100%;
    background-color:#ff6000;
    position:absolute;
    top:1300px;
@@ -394,7 +406,7 @@ background-image:url('images/step-dos.png');width:100px;height:100px;top:300px;l
    height:700px;
    position:absolute;
    bottom:0px;
-   left:50px;  
+   left:800px;  
    top:-90px
 }
 .phone2{
@@ -402,40 +414,39 @@ background-image:url('images/step-dos.png');width:100px;height:100px;top:300px;l
    color:white;
    position:absolute;
    top:200px;
-   left:1000px;
    white-space:nowrap;
-   right:0px; 
+   right:350px; 
    font-size:60px;
 }
 .phone3{
    position:absolute;
    font-size:20px;
    top:300px;
-   left:1000px;
    white-space:nowrap;
    color:white;
+   right:400px;
 }
 .button{
    position:absolute;
-   color:orange;
+   color:#ff6000;
    font-size:24px;
-   left:1016px;
-   top:350px;
+   top:400px;
    width:150px;
-   height:50px;
+   height:40px;
    justify-content:center;
    align-items:center;
    display:flex;
-   background-color:white
-   
+   background-color:white;
+  
 }
 .contact-us{
-   width:1500px;
-   height:700px;
+   width:100%;
+   height:500px;
    display:grid;
    position:absolute;
-   top:1700px;
+   top:1866px;
    background-color:#3b3b3b;
+   overflow:hidden
 }
 .contacts{
    color:white;
@@ -443,12 +454,13 @@ background-image:url('images/step-dos.png');width:100px;height:100px;top:300px;l
    display:flex;
    position:absolute;
    top:100px;
-   left:250px;
+   left:900px;
+   height:300px
 }
 .telephone{
    position:absolute;
    top:180px;
-   left:240px;
+   left:900px;
    color:#fff;
    gap:50px;
 }
@@ -461,7 +473,7 @@ background-image:url('images/step-dos.png');width:100px;height:100px;top:300px;l
    margin-top:20px;
    position:absolute;
    top:230px;
-   left:230px;
+   left:900px;
    
 }
 .twitter{
@@ -482,7 +494,7 @@ background-image:url('images/step-dos.png');width:100px;height:100px;top:300px;l
 }
 .last-container{
    position:absolute;
-   left:890px;
+   right:400px;
    top:150px;
 }
 .last-container input{
@@ -491,12 +503,12 @@ height:30px;
     border-top-width: 0px;
     border-left-width: 0px;
     border-bottom-width: 0px;
-   width:230px;
+   width:250px;
    gap:20px;
 }
 .last-container2{
     position:absolute;
-    left:1130px;
+   right:380px;
    top:150px
 }
 .last-container2 input{
@@ -507,17 +519,16 @@ height:30px;
 }
 .last-container3{
    position:absolute;
-   left:890px;
-   top:210px
+  right:650px;
+   top:210px;
 }
 .last-container3 input{
-   width:500px;
+   width:530px;
    position:absolute;
    height:100px;
 }
 .last-container4{
 position:absolute;
-   left:1200px;
    top:350px;
    padding-top:10px;
    padding-left:50px;
@@ -526,11 +537,11 @@ position:absolute;
    background-color:#ff6000;
    color:white;
    font-size:20px;
-   
+   right:110px
 }
 .divider{
    position:absolute;
-       left: 700px;
+       left: 1300px;
     height: 700px;
     width: 0px;
     border: 1px solid #151515;
