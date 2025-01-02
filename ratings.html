@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">PODZO</div>
+            <div class="home"> <a href="home.html" ></a> Home</div>
+            <ul>
+                <li><a href="about.html">Restaurants</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li class ="separator"></li>
+                <li><a href="login.html">login</a></li>
+                <li class ="signup"><a href="signup.html">signup</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+    <div class="background2"></div>
+    <div class="background3"> 
+    <div class="background4"> 
+    <div class="info" onClick="toggleInfo()">
+        <h3> Info</h3>
+        <ul class="informations" id="info-content" style="display:block;">
+        <li class="item"> NAME</li><br>
+        <li class="item">PHOTO </li><br>
+        <li class="item">WEBSITE</li><br>
+        <li class="item">LOCATION</li><br>
+        <li class="item">ONLINE DELIVERY</li><br>
+        <li class="item">TABLE BOOKING</li><br>
+        <li class="item">CUISINES</li><br>
+        <li class="item">CURRENCY</li><br>
+        <li class="item">PRICE RANGE</li><br>
+        </ul>
+        <ul class="informations2" id="info-contents" style="display:block;">
+        <li class="item"> KUGASIMA CAFFEE</li><br>
+        <li class="item"> +(250) 000 000 000 </li><br>
+        <li class="item">www.kugasima.rw</li><br>
+        <li class="item">Kimihurura</li><br>
+        <li class="item">Yes</li><br>
+        <li class="item">Yes</li><br>
+        <li class="item">Cafe</li><br>
+        <li class="item">$</li><br>
+        <li class="item">2</li><br>
+        </ul>
+    </div>
+        <div class="line"> </div>
+        <div class="ratings"onClick="toggleRatings()">
+            <h4> Ratings</h4>
+            <ul class="red-code" id="ratings-content" style="display:none; gap:20px;">
+                <li class="red-code1" >
+                    <span class="red-code2">
+                        Yves Honore
+                    </span>
+                    <span class="red-code3">
+                        5 starts
+                    </span>
+                    <span class="red-code4">
+                      The best banjiya I've ever had. It tasted a little sweet.<br> Keep it guys  
+                    </span>
+                </li><div class="break"></div>
+                <li class="red-code1">
+                    <span class="red-code2">
+                        Yves Honore
+                    </span>
+                    <span class="red-code3">
+                        5 starts
+                    </span>
+                    <span class="red-code4">
+                      The best banjiya I've ever had. It tasted a little sweet.<br> Keep it guys   
+                    </span>
+                </li><div class="break"></div>
+                <li class="red-code1">
+                    <span class="red-code2">
+                        Yves Honore
+                    </span>
+                    <span class="red-code3">
+                        5 starts
+                    </span>
+                    <span class="red-code4">
+                      The best banjiya I've ever had. It tasted a little sweet.<br> Keep it guys   
+                    </span>
+                </li><div class="break"></div>
+                <li class="red-code1">
+                    <span class="red-code2">
+                        Yves Honore
+                    </span>
+                    <span class="red-code3">
+                        5 starts
+                    </span>
+                    <span class="red-code4">
+                      The best banjiya I've ever had. It tasted a little sweet.<br> Keep it guys   
+                    </span>
+                </li><div class="break"></div>
+                <li class="red-code1">
+                    <span class="red-code2">
+                        Yves Honore
+                    </span>
+                    <span class="red-code3">
+                        5 starts
+                    </span>
+                    <span class="red-code4">
+                      The best banjiya I've ever had. It tasted a little sweet.<br> Keep it guys   
+                    </span>
+                </li><div class="break"></div>
+            </ul>
+        </div>
+        <script>
+//             function toggleInfo() {
+//     const ratingsContent = document.getElementById("ratings-content");
+//     const infoContent = document.getElementById("info-content");
+//     const infoContents=document.getElementById('info-contents');
+//     if (infoContent.style.display === "none" ) {
+//         infoContent.style.display = "block";
+//         infoContents.style.display="block";
+//         ratingsContent.style.display="none";
+//     }
+// }
+
+// function toggleRatings() {
+//     const ratingsContent = document.getElementById("ratings-content");
+//     const infoContent = document.getElementById("info-content");
+//     const infoContents=document.getElementById('info-contents');
+//     if (ratingsContent.style.display === "none"|| ratingsContent.style.display === "") {
+//         ratingsContent.style.display = "block";
+//         infoContents.style.display="none";
+//          infoContent.style.display = "none";
+        
+//     } else {
+//         ratingsContent.style.display = "none";
+//         infoContents.style.display="block";
+//         infoContent.style.display = "block"
+//     }
+// }
+
+        </script>
+    </div>
+    <div class="background5">
+    <h1 class="menu"> MENU</h1>
+    <ul class="finale"> 
+    <li class="finale2" style="margin-left:20px;"> <h1>BREAKFAST</h1> </li>
+    <li class="finale2"> IBIRAHA</li>
+         <span class="finale3"> 200 frw</span>
+    <li class="finale2"> IRINDAZI</li>
+        <span class="finale3"> 200 frw</span>
+    <li class="finale2">IBISHITANI </li>
+        <span class="finale3"> 200 frw</span>
+    <li class="finale2">BANJIYA </li>
+        <span class="finale3"> 200 frw</span>
+    <li class="finale2">SAMBUSA </li>
+        <span class="finale3"> 200 frw</span>
+    <li class="finale2">ROLEX </li>
+        <span class="finale3"> 200 frw</span>
+         <h1 class="lunch"> LUNCH</h1>
+        <li class="finale2">IMVANGE </li>
+        <span class="finale3"> 2000 frw</span>
+        <li class="finale2">CHAPATI NIBISHYIMBO </li>
+        <span class="finale3"> 200 frw</span>
+        <li class="finale2"> UMUCERI NISOSI</li>
+        <span class="finale3"> 200 frw</span>
+        <li class="finale2">INYAMA </li>
+        <span class="finale3"> 200 frw</span>
+    </ul>
+    
+    </div>
+   </div>
+   <div class="contact-us3">
+    <span class="contacts"> 
+      Contact US
+    </span>
+    <span class="telephone">
+        T:+250 788 000 000<br>
+        E:yveshonore14@gmail.com<br>
+        A:Kimihurura.Kigali. <br>
+    </span>
+    <span class=" social-media-icons">
+        <a href="twitter.com" target="_blank">
+            <img class=" twitter" src="images/twitter-icon.png" alt="twitter">
+        </a>
+        <a href="google.com" target="_blank">
+            <img class=" google" src="images/google-icon.png" alt="google">
+        </a>
+        <a href="snapchat.com" target="_blank">
+            <img class=" snapchat" src="images/snapchat-icon.png" alt="snapchat">
+        </a>
+        <a href="linkedin.com" target="_blank">
+            <img class=" linkedin" src="images/linkedin-icon.png" alt="linkedin">
+        </a>
+    </span>
+    <span class="divider"> </span>
+    <span class="last-container">
+        <input type="text" placeholder="Name">
+    </span>
+     <span class="last-container2">
+        <input type="text" placeholder="Email">
+    </span>
+     <span class="last-container3">
+        <input type="text" placeholder="Message">
+    </span>
+     <span class="last-container4">
+        Submit
+    </span>
+</div>
+        
+    </main>
