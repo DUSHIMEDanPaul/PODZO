@@ -520,8 +520,40 @@ background-image:url('images/step-dos.png');width:130px;height:130px;top:300px;l
    margin-top:20px;
    position:absolute;
    top:230px;
-   left:900px;
-   
+   left:900px; 
+}
+.social-media-icons4{
+  display:flex;
+   gap:20px;
+   justify-content:center;
+   align-items:center;
+   width:auto;
+   margin-top:20px;
+   position:absolute;
+   top:230px;
+   left:100px;  
+}
+.social-media-icons3{
+  display:flex;
+   gap:20px;
+   justify-content:center;
+   align-items:center;
+   width:auto;
+   margin-top:20px;
+   position:absolute;
+   top:230px;
+   left:100px;   
+}
+.social-media-icons2{
+     display:flex;
+   gap:20px;
+   justify-content:center;
+   align-items:center;
+   width:auto;
+   margin-top:20px;
+   position:absolute;
+   top:230px;
+   left:100px;
 }
 .twitter{
    height:30px;
