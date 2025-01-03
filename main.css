@@ -457,12 +457,59 @@ background-image:url('images/step-dos.png');width:130px;height:130px;top:300px;l
    left:900px;
    height:300px
 }
+.contacts1{
+  color:white;
+   font-size:30px;
+   display:flex;
+   position:absolute;
+   top:100px;
+   left:100px;
+   height:300px}
+.contacts4{
+  color:white;
+   font-size:30px;
+   display:flex;
+   position:absolute;
+   top:100px;
+   left:100px;
+   height:300px  
+}
+.contacts3{
+    color:white;
+   font-size:30px;
+   display:flex;
+   position:absolute;
+   top:100px;
+   left:100px;
+   height:300px
+}
 .telephone{
    position:absolute;
    top:180px;
    left:900px;
    color:#fff;
    gap:50px;
+}
+.telephone1{
+    position:absolute;
+   top:180px;
+   left:100px;
+   color:#fff;
+   gap:50px;
+}
+.telephone3{
+    position:absolute;
+   top:180px;
+   left:100px;
+   color:#fff;
+   gap:50px;
+}
+.telephone2{
+      position:absolute;
+   top:180px;
+   left:100px;
+   color:#fff;
+   gap:50px; 
 }
 .social-media-icons{
    display:flex;
@@ -541,12 +588,39 @@ position:absolute;
 }
 .divider{
    position:absolute;
-       left: 1300px;
+   left: 1300px;
     height: 700px;
     width: 0px;
     border: 1px solid #151515;
     bottom: 0px;
     top: 0px;
+}
+.divider1{
+  position:absolute;
+   left: 800px;
+    height: 700px;
+    width: 0px;
+    border: 1px solid #151515;
+    bottom: 0px;
+    top: 0px; 
+}
+.divider2{
+   position:absolute;
+   left: 800px;
+    height: 700px;
+    width: 0px;
+    border: 1px solid #151515;
+    bottom: 0px;
+    top: 0px;  
+}
+.divider3{
+   position:absolute;
+   left: 800px;
+    height: 700px;
+    width: 0px;
+    border: 1px solid #151515;
+    bottom: 0px;
+    top: 0px;  
 }
 .container-restaurants2{
    width:100vw;
@@ -645,13 +719,35 @@ position:absolute;
 .background2{
 background-image:url('images/resto_bg.png');
   width:100vw;
-   height:500px;
+   height:300px;
    display:flex;
    position:absolute;
    justify-self:flex-start;
    align-self:flex-start;
    background-size:cover;
    background-repeat:no-repeat;
+}
+.b2b{
+   background-image:url('images/restaurant.png');
+   background-size:cover;
+   background-repeat:no-repeat;
+   height:100px;
+   width:100px;
+   position:absolute;
+   left:200px;
+   top:130px;
+}
+.b2b1{
+position:absolute;
+   left:350px;
+   top:150px;
+   color:#fff
+}
+.b2b2{
+   position:absolute;
+   left:350px;
+   top:190px;
+   color:#fff
 }
 .background3{
    background-color:#f5fafc;
@@ -660,20 +756,18 @@ background-image:url('images/resto_bg.png');
    display:grid;
    position:absolute;
    align-items:center;
-   top:500px;
+   top:380px;
 }
 .background4{
   background-color:#ffffff;
-   height:200px;
-   width:500px;
    display:flex;
    border: 2px solid #ccc;
    position:relative;
-   height: 500px;
+   height: 900px;
    width: 500px;
-   top: 0px;
+   top: 23px;
    left: 100px;
-   
+   margin-bottom:340px;
    flex-direction:column;
 }
 .info{
@@ -787,25 +881,33 @@ background-image:url('images/resto_bg.png');
 }
 .background5{
    width:900px;
-   height:200px;
    border:1px solid black;
    position:absolute;
    left: 610px;
-    height: 700px;
-    top: 200px;
+    height: 600px;
+    top: 22px;
    background-color:#fff
 }
 .finale{
-   gap:3px;
+   gap:20px;
    display:grid;
-   margin-top:70px
-   
+   margin-top:60px;
+}
+.final-round{
+position:absolute;
+   left:700px;
+   list-style-type:none;
+   gap:20px;
+   top:127px
+}
+.divisor{
+ height:21px
 }
 .finale2{
    font-weight:bold;
    color:black;
    list-style-type:none;
-   margin-top:5px
+   margin-top:3px
 }
 .finale3{
    color:#ff6000;
@@ -825,6 +927,9 @@ color:black
    height:700px;
    display:grid;
    position:absolute;
-   top:1400px;
+   top:1200px;
    background-color:#3b3b3b; 
+}
+.itemss{
+   color:#ff6000
 }
