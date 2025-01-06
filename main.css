@@ -795,12 +795,24 @@ position:absolute;
    display:flex;
    border: 2px solid #ccc;
    position:relative;
-   height: 900px;
+   height: 600px;
    width: 500px;
    top: 23px;
    left: 100px;
    margin-bottom:340px;
    flex-direction:column;
+}
+.background6{
+  background-color:#ffffff;
+   display:flex;
+   border: 2px solid #ccc;
+   position:relative;
+   height: 900px;
+   width: 500px;
+   top: 23px;
+   left: 100px;
+   margin-bottom:340px;
+   flex-direction:column;  
 }
 .info{
    position: absolute;
